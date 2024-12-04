@@ -1,7 +1,7 @@
 from . import config
 
 
-def load_config(new_config=None) -> config.CDFTrackerConfiguration:
+def load_config(new_config=None) -> config.MetaTrackerConfiguration:
     """
     Load configuration
 
@@ -9,7 +9,7 @@ def load_config(new_config=None) -> config.CDFTrackerConfiguration:
         config (Dict[str, Any], optional): Configuration. Defaults to None.
 
     Returns:
-        config.CDFTrackerConfiguration: Configuration
+        config.MetaTrackerConfiguration: Configuration
     """
 
-    return config.CDFTrackerConfiguration(new_config)
+    return config.MetaTrackerConfiguration(new_config)
