@@ -3,7 +3,14 @@ from sqlalchemy.orm import declarative_base
 
 from metatracker import CONFIGURATION
 from metatracker.database import create_engine, create_session
-from metatracker.database.tables import create_table, create_tables, get_columns, get_tables, remove_tables, table_exists
+from metatracker.database.tables import (
+    create_table,
+    create_tables,
+    get_columns,
+    get_tables,
+    remove_tables,
+    table_exists,
+)
 
 MISSION_NAME = CONFIGURATION.mission_name
 

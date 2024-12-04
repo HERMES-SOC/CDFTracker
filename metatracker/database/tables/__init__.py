@@ -2,7 +2,6 @@
 Setup Tables
 """
 
-
 from sqlalchemy import inspect
 
 from metatracker import CONFIGURATION, log
